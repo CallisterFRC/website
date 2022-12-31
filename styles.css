@@ -348,20 +348,6 @@ body {
     margin: 0px 20px;
 }
 
-
-
-
-
-.frc-main-up-background {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    z-index: -1;
-    background-color: black;
-}
-
 .frc-main-up {
     position: absolute;
     left: 0;
@@ -376,7 +362,6 @@ body {
 .frc-info-main-up {
     position: relative;
     left: 50%;
-    margin-top: 50px;
     transform: translateX(-50%);
     text-align: center;
     color: #F0F5F9;
@@ -513,19 +498,6 @@ body {
 .eragonfrc-hakkinda h1 {
     display: inline-block;
     position: relative;
-}
-
-.eragonfrc-hakkinda h1:after {
-    content: '';
-    position: absolute;
-    width: 250px;
-    transform: scaleX(0);
-    height: 5px;
-    bottom: 0;
-    left: 0;
-    background-color: #0087ca;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
 }
 
 .eragonfrc-hakkinda h1:hover:after {
@@ -812,9 +784,11 @@ body {
 
 .inovasyon-info-main-up-writing {
     font-size: 75px;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1000px) {
+
     .frc-info-main-up h1 {
         font-size: 60px;
     }
@@ -825,6 +799,7 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+
     .frc-info-main-up h1 {
         font-size: 50px;
     }
