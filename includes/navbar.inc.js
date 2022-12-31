@@ -25,7 +25,7 @@ document.getElementById("navRoot").innerHTML = `
         </span>
         <button onclick="navigator.clipboard.writeText('callisterfrc@gmail.com');" style="background: none; border: none; color: #F25D9C; font-size: medium; cursor: pointer;">callisterfrc@gmail.com</button>
         <a class="navbar-up-responsive-willberemoved" href="https://www.instagram.com/callisterfrc/" style="margin-left: 20px;">Instagram</a>
-        <!-- <a class="navbar-up-responsive-willberemoved" href="#">YouTube</a> -->
+        <a class="navbar-up-responsive-willberemoved" href="https://twitter.com/callisterfrc" style="margin-left: 20px;">Twitter</a>
         <a class="navbar-up-responsive-willberemoved" href="https://www.linkedin.com/company/callisterfrc/" style="margin-right: 0px;">LinkedIn</a>
 
     </section>
@@ -102,7 +102,7 @@ document.getElementById("navRoot").innerHTML = `
             </span>
         </button>
     
-        <img src="images/eragon_mor_logo_transparent.png" alt="Eragon Logo" width="100px" height="auto">
+        <img src="images/callister_logo.png" alt="Callister Logo" width="100px" height="auto">
     
         
         <div class="responsive-open-menu-main">
@@ -141,6 +141,15 @@ document.getElementById("navRoot").innerHTML = `
             <a class="responsive-open-menu-title-open" href="sponsorluk.html">` + fourOne + `</a>
             <a class="responsive-open-menu-title-open" href="sponsorlarımız.html">` + fourTwo + `</a>
 
+
+        </div>
+
+        <div class="responsive-open-menu-main">
+
+            <a class="responsive-open-menu-title" href="#">Sosyal Medya</a>
+            <a class="responsive-open-menu-title-open" href="https://www.instagram.com/callisterfrc/">Instagram</a>
+            <a class="responsive-open-menu-title-open" href="https://twitter.com/callisterfrc">Twitter</a>
+            <a class="responsive-open-menu-title-open" href="https://www.linkedin.com/company/callisterfrc/">LinkedIn</a>
 
         </div>
     
