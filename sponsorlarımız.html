@@ -33,16 +33,26 @@
         <h1>SPONSORLARIMIZ</h1><br><br>
 
         <!-- HTML for the image and text -->
-        <div id="imageContainer">
-            <img src="images/sponsors/bahcesehir-koleji-logosu.png" id="image">
-            <div id="text">Hello World</div>
+        <div class="imageContainer" id="korfez_reduktor">
+            <img src="images/sponsors/körfezredüktör.jpg" id="image">
+            <div id="text">Körfez Redüktör</div>
+        </div>
+
+        <div class="imageContainer" id="enpay">
+            <img src="images/sponsors/enpay.jpeg" id="image">
+            <div id="text">ENPAY</div>
+        </div>
+        <div class="imageContainer" id="charge_technology">
+            <img src="images/sponsors/chargetechnology.jpg" id="image">
+            <div id="text">Charge Technology</div>
         </div>
 
         <style>
             /* CSS for the image container and text */
-            #imageContainer {
+            .imageContainer {
                 position: relative;
                 cursor: pointer;
+                margin: 30px;
             }
 
             #image {
@@ -64,22 +74,28 @@
             }
 
             /* CSS for the hover and click states */
-            #imageContainer:hover #image {
+            .imageContainer:hover #image {
                 transform: scale(1.5);
                 filter: grayscale(100%) blur(4px);
             }
 
-            #imageContainer:hover #text {
+            .imageContainer:hover #text {
                 display: block;
             }
         </style>
 
         <script>
             // JavaScript to handle the click event
-            const imageContainer = document.getElementById("imageContainer");
-            imageContainer.addEventListener("click", function () {
-                window.location.href = "https://bahcesehir.k12.tr/tr/";
-            });
+            function sponsor(id, page) {
+                const imageContainer = document.getElementById(id);
+                imageContainer.addEventListener("click", function () {
+                    window.location.href = page;
+                });
+            }
+
+            sponsor("korfez_reduktor", "https://www.korfezreduktor.com/");
+            sponsor("enpay", "https://www.enpay.com/");
+            sponsor("charge_technology", "https://www.chargeteknoloji.com.tr/tr/");
         </script>
 
 
