@@ -14,6 +14,10 @@ const fourHeader = "SPONSORLUK";
 const fourOne = "Sponsorluk";
 const fourTwo = "Sponsorlarımız";
 
+const fiveHeader = "TECH";
+const fiveOne = "Gearbox";
+const fiveTwo = "Robot";
+
 document.getElementById("navRoot").innerHTML = `
 
 <header class="navbar-header">
@@ -83,6 +87,15 @@ document.getElementById("navRoot").innerHTML = `
                     <a href="sponsorlarımız.html">` + fourTwo + `</a>
                 </div>
             </div>
+            
+            <div id="navbar-dropdown" class="navbar-dropdown navbar-content-extra-margin">
+                <button class="navbar-dropdown-button">` + fiveHeader + `</button>
+                <div class="navbar-dropdown-content">
+                    <!-- <a href="inovasyon.html">İnovasyon</a> -->
+                    <a href="callistercustomgearbox.html">` + fiveOne + `</a>
+                    <!-- <a href="#">` + fiveTwo + `</a> -->
+                </div>
+            </div>
 
         </div>
 
@@ -142,6 +155,15 @@ document.getElementById("navRoot").innerHTML = `
             <a class="responsive-open-menu-title-open" href="sponsorlarımız.html">` + fourTwo + `</a>
 
 
+        </div>
+
+
+        <div class="responsive-open-menu-main">
+
+            <a class="responsive-open-menu-title" href="#">` + fiveHeader + `</a>
+
+            <a class="responsive-open-menu-title-open" href="callistercustomgearbox.html">` + fiveOne + `</a>
+            <!-- <a class="responsive-open-menu-title-open" href="#">` + fiveTwo + `</a> -->
         </div>
 
         <div class="responsive-open-menu-main">
